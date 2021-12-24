@@ -1,0 +1,45 @@
+.form {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.todo-input {
+  border-radius: 4px;
+  outline: none;
+  margin-right: 5px;
+  width: 20rem;
+}
+.add-btn {
+  background: linear-gradient(90deg, #7221d8 0%, #5473db 100%);
+  color: white;
+  cursor: pointer;
+  width: 4em;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+}
+
+.btn-icon {
+  background: none;
+  outline: none;
+}
+
+.icon {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+  .todo-input {
+    width: 8em;
+  }
+}

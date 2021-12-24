@@ -1,0 +1,55 @@
+.todo {
+  margin: auto;
+  margin-top: 7px;
+  display: flex;
+  width: 60%;
+  background-color: var(--darkblue);
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  color: rgb(236, 232, 232);
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content .completed {
+  transition: all 0.2s ease-out;
+
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.content .checkbox {
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.buttons {
+  color: white;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.btn-update {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+  .todo {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
